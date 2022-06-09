@@ -1,7 +1,7 @@
 {
   "name": "github-users",
   "version": "0.1.0",
-  "homepage": "https://smrahr.github.io/github-users",
+  "homepage": "https://smrahr.github.io/github-users-fn",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -14,6 +14,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "npx gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

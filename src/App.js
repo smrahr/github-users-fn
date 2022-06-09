@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div>
-      <BrowserRouter basename="github-users">
+      <BrowserRouter basename="github-users-fn">
         <Navbar />
         <Routes>
           <Route
